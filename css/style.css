@@ -1,0 +1,92 @@
+/* NULL CSS */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+/* Cелектор тега */
+p{
+		/* Обратились ко ВСЕМ тегам P на странице */
+	/* color: red; */
+
+}
+span{
+	/* Обратились ко ВСЕМ тегам SPAN на странице */
+	/* color: green; */
+}
+div{
+	/* Обратились ко ВСЕМ тегам DIV на странице */
+	/* color: blue; */
+}
+/* Селектор класса */
+.title{
+	/* color: red; */
+}
+.text{
+	/* color: blue; */
+}
+/* div.text1.blue-text {
+	color: green;
+} */
+/* div.blue-text{
+	color: red;
+} */
+.text1 {
+	/* color: blue; */
+}
+/* .content__item{
+	color: blue;
+} */
+/* .content .content__item{
+	color: red;
+} */
+.content p,
+.content span{
+	/* color: green; */
+
+}
+
+.content .content__text,
+.content .content__text1{
+	/* color: green; */
+}
+.content__text,
+.content__text1,
+footer{
+	/* color: red; */
+}
+.content span{
+	/* color: green; */
+}
+.content  * span{
+	color: red;
+	}
